@@ -1,0 +1,451 @@
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+html {
+  font-size: 100%;
+}
+
+/*16px*/
+
+body {
+  background: white;
+  color: rgb(75 85 99);
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  margin: 0;
+}
+
+div.container {
+  padding: 0 1rem 0 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  /* text-align: justify; */
+}
+
+li {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  display: flex;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.small-margin {
+  margin: 1.5rem 0 0;
+}
+
+.subtle-margin + .subtle-margin {
+  margin-top: -1rem;
+}
+
+.top-margin {
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 2.488rem;
+}
+
+h2 {
+  font-size: 2.074rem;
+}
+
+h3 {
+  font-size: 1.728rem;
+}
+
+h4 {
+  font-size: 1.44rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.tight-list li {
+  line-height:  25px;
+}
+
+.emoji-list {
+  list-style: none;
+  padding: 0;
+}
+
+.emoji-list li {
+  padding-left: 2.5rem;
+  text-indent: -1.5rem;
+}
+
+.emoji-list li::before {
+  margin-right:  0.3rem;
+  font-size:  12px;
+}
+
+.done-list li::before {
+  content: "✅ ";
+}
+
+.in-progress-list li::before {
+  content: "🔄 ";
+}
+
+.coming-soon-list li::before {
+  content: "⏳ ";
+}
+
+small,
+.text_small {
+  font-size: 0.833rem;
+}
+
+a {
+  color: #5569ff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block;
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em;
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: top;
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle;
+}
+
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none;
+}
+
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none;
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9;
+  transform: scale(1.1);
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c;
+}
+
+.resp-sharing-button--pinterest:hover {
+  background-color: #8c0615;
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373;
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465c;
+}
+
+.resp-sharing-button--tumblr:hover {
+  background-color: #222d3c;
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf;
+}
+
+.resp-sharing-button--reddit:hover {
+  background-color: #3a80c1;
+  transform: scale(1.1);
+}
+
+.resp-sharing-button--google {
+  background-color: #dd4b39;
+}
+
+.resp-sharing-button--google:hover {
+  background-color: #c23321;
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5;
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293;
+  transform: scale(1.1);
+}
+
+.resp-sharing-button--email {
+  background-color: #777;
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e;
+}
+
+.resp-sharing-button--xing {
+  background-color: #1a7576;
+}
+
+.resp-sharing-button--xing:hover {
+  background-color: #114c4c;
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25d366;
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851;
+}
+
+.resp-sharing-button--hackernews {
+  background-color: #ff6600;
+}
+
+.resp-sharing-button--hackernews:hover,
+.resp-sharing-button--hackernews:focus {
+  background-color: #fb6200;
+  transform: scale(1.1);
+}
+
+.resp-sharing-button--vk {
+  background-color: #507299;
+}
+
+.resp-sharing-button--vk:hover {
+  background-color: #43648c;
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5;
+  border-color: #0077b5;
+}
+
+.resp-sharing-button--linkedin:hover,
+.resp-sharing-button--linkedin:active {
+  background-color: #046293;
+  border-color: #046293;
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25d366;
+  border-color: #25d366;
+}
+
+.resp-sharing-button--whatsapp:hover,
+.resp-sharing-button--whatsapp:active {
+  background-color: #1da851;
+  border-color: #1da851;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: rgb(33 37 43);
+    color: rgb(228 228 228);
+  }
+
+  a {
+    color: #7b8bff;
+  }
+
+  .link-svg path {
+    stroke: white;
+  }
+}
+
+.share-social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .share-social-media {
+    flex-direction: column;
+  }
+}
+
+.co-signed {
+  width: 100%;
+}
+
+.co-signed th,
+.co-signed td {
+  text-align: left;
+  padding: 5px;
+}
+
+figure {
+  margin: 0;
+}
+
+figure figcaption,
+figure blockquote {
+  margin: 1em;
+}
+
+figure blockquote {
+  border-left: 2px solid #5569ff;
+  padding: 1em;
+}
+
+span {
+  margin-right: 20px;
+  min-width: 0;
+}
+
+.count {
+  font-weight: bold;
+}
+
+.Info {
+  overflow-x: auto;
+}
+.Info::-webkit-scrollbar {
+  display: none;
+}
+
+#blog {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.blog-post {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.blog-post time {
+  font-style: italic;
+}
+
+.purple-banner {
+  display: block;
+  background-color: #8a2be2;
+  color: white;
+  text-align: center;
+  padding: 0.75rem 0.5rem;
+  font-size: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.purple-banner:hover {
+  background-color: purple;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
